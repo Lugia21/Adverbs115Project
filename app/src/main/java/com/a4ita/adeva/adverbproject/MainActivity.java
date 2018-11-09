@@ -1,5 +1,6 @@
 package com.a4ita.adeva.adverbproject;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -35,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
                 int id = menuItem.getItemId();
 
                 switch (id) {
-                    case R.id.account:
+                    case R.id.learn:
                         Toast.makeText(MainActivity.this, "My Account",Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.settings:
+                    case R.id.test:
                         Toast.makeText(MainActivity.this, "Settings",Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.mycart:
+                    case R.id.addAdverbs:
                         Toast.makeText(MainActivity.this, "My Cart",Toast.LENGTH_SHORT).show();
                         break;
                     default:
