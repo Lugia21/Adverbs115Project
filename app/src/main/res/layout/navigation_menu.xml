@@ -3,14 +3,18 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-    <item android:id="@+id/learn"
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/learn"
 
-        android:title="Learn"/>
-    <item android:id="@+id/test"
+            android:title="Learn"/>
+        <item android:id="@+id/test"
 
-        android:title="Test"/>
-    <item android:id="@+id/addAdverbs"
+            android:title="Test"/>
+        <item android:id="@+id/addAdverbs"
 
-        android:title="Add Adverbs"/>
+            android:title="Add Adverbs"/>
+    </group>
+
 
 </menu>

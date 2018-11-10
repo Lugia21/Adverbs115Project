@@ -31,7 +31,8 @@
         app:menu="@layout/navigation_menu"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
-        android:id="@+id/nv">
+        android:id="@+id/nv"
+        android:fitsSystemWindows="true">
 
     </android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>

@@ -4,20 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.a4ita.adeva.adverbproject.SplashActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.a4ita.adeva.adverbproject.MainActivity"/>
-
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:label="Test Activity Page"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AddAdverbsActivity"
+            android:label="Add Adverbs Page"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
