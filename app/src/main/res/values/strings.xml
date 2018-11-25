@@ -4,4 +4,8 @@
     <string name="navigation_drawer_close">Drawer Close</string>
     <string name="main">Main</string>
     <string name="add_adverbs_tab">ADD ADVERBS TAB</string>
+    <string name="definition">Definition</string>
+    <string name="kinds_of_adverbs">Kinds of Adverbs</string>
+    <string name="positions_of_adevrbs">Positions of Adevrbs</string>
+    <string name="relative_adevrbs">Relative Adevrbs</string>
 </resources>
