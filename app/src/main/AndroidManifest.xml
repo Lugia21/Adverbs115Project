@@ -4,20 +4,24 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
+        android:label="ADV."
+        android:icon="@drawable/adv"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Learn Adverbs"/>
         <activity
             android:name=".TestActivity"
-            android:label="Test Activity Page"
+            android:label="Test Your Knowledge"
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".AddAdverbsActivity"
