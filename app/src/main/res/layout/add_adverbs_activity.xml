@@ -21,7 +21,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="98dp"
             android:inputType=""
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/imageView6"
